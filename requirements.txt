@@ -3,5 +3,5 @@ Appium-Python-Client==0.26
 pandas==0.22.0
 pymssql==2.1.4.dev5
 PyMySQL==0.8.0
-PyYAML==3.12
+PyYAML==5.1
 openpyxl==2.5.3
