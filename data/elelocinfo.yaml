@@ -1,0 +1,62 @@
+login:
+  username_xpath: "x,.//*[@id='loginForm']/div[2]/input"
+  password_id: "i,password"
+  login_btn_xpath: "x,.//*[@id='loginForm']/input[2]"
+  account_text_xpath: "x,html/body/div[2]/div[2]/div/h1"
+  exist_id: "i,loginForm"
+logout:
+  logout_xpath: 'x,html/body/div[1]/div/div[1]/div/a'
+frame:
+  frame_class: ''
+  frame_xpath: '/'
+first_pager:
+  sub_bar: "x,.//*[@id='navitems-group']/li/a"
+  sub_sort: "x,.//*[@id='categoryList']/span/a"
+  huidaodingbu_id: 'i，returnTopCont'
+  spfl_xpath: "x,html/body/div[3]/div/div[1]/ul/li/div/a"
+  shangpinfenlei_xpath: "x,html/body/div[3]/div/div[1]/div/div/div/dl/div/dd/a"
+  zbnf_xpath: "x,html/body/div[3]/div/div[1]/ul/li[1]/div/a"
+  zhengbannaifen_xpath: "x,html/body/div[3]/div/div[1]/div/div[1]/div/dl/div/dd/a"
+  myyp_xpath: "x,html/body/div[3]/div/div[1]/ul/li[2]/div/a"
+  muyingyongpin_xpath: "x,html/body/div[3]/div/div[1]/div/div[2]/div/dl/div/dd/a"
+  mzgh_xpath: "x,html/body/div[3]/div/div[1]/ul/li[3]/div/a"
+  meizhuanggeghu_xpath: "x,html/body/div[3]/div/div[1]/div/div[3]/div/dl/div/dd/a"
+  yybj_xpath: "x,html/body/div[3]/div/div[1]/ul/li[4]/div/a"
+  yingyangbaojian: "x,html/body/div[3]/div/div[1]/div/div[4]/div/dl/div/dd/a"
+  qt_xpath: "x,html/body/div[3]/div/div[1]/ul/li[5]/div/a"
+  qita_xpath: "x,html/body/div[3]/div/div[1]/div/div[5]/div/dl/div/dd/a"
+  country_xpath: "x,html/body/div[7]/div/div[2]/ul/li/a/img"
+  top_brand_xpath: "x,html/body/div[8]/div/div[3]/ul/li/div/a/span[3]"
+  #定位下一页方法比较特殊
+  #可用定位： "x,.//*[@id='pagination']/div/div/a["+str(j)+"]"
+  page_xpath: "x,.//*[@id='pagination']/div/div/a"
+  page_xpath1: "x,.//*[@id='pagination']/div/div/a["
+  page_xpath2: "]"
+search:
+  search_btn_id: "search_btn"
+  productsysno_xpath: "x,.//*[@id='skuList']/li/input"
+  search_shopping_id: "i,search_shopping"
+ProductDetail:
+  ProductSysNo_number_class: "c,ProductSysNo_" #"ProductSysNo_9362"
+  Order_Now_class: "c,hn-goods-send"
+  Entry_into_the_bill_of_goods_class: "c,hn-goods-add"
+  myJhds_icon_class: "c,myJhds_icon1"
+  select_All_class: "c,select-All"
+  settlement_class: "c,settle"
+  Adress_Consignee_class: "c,funame"  #收货人
+  Adress_Contact_number_class: "c,fcontact" #联系电话
+  Adress_ID_number_class: 'c,fidcard' #身份证号码
+  Adress_province_class: 'c,fprovince'  #省
+  Adress_city_class: 'c,fcity'  #市
+  Adress_area_class: 'c,farea'  #区
+  Adress_Detailed_class: 'c,fuaddress'  #详细地址
+  Distribution_class: "c,selectFreight" #配送方式选择
+  Distribution_id: "freight_" #配送方式选择
+  Distribution_xpath: "x,.//*[@class='selectFreight']" #配送方式选择
+  submit_order_id: "i,settle"
+  attention: 'c,attention'
+  attention_Popup_xpath: "x,html/body/div[10]/div"
+#shopping_cart:
+#  goodsCount_class:
+personal_center:
+  goodsInfo_xpath: "x,.//*[@class='goodsInfo']/a"

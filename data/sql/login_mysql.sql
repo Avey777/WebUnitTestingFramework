@@ -1,0 +1,1 @@
+SELECT STAFF_ID,PASSWORD,channel_id FROM sc_login_user;

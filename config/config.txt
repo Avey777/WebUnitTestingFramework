@@ -1,0 +1,1 @@
+1、下载的pymssql模块链接：https://www.lfd.uci.edu/~gohlke/pythonlibs/#pymssql   (必须找到对应python的[x86,64]位数和版本)

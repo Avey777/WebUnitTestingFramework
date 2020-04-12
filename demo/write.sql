@@ -1,0 +1,1 @@
+INSERT INTO employee (id,NAME,age) VALUES (1,'aaaaa','23');

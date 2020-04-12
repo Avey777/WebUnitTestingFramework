@@ -1,0 +1,1 @@
+如果使用Anaconda Navigator 存放Python安装包，Web测试时要把  **driver.exe 的驱动到  **\Anaconda3\Scripts  的目录下！！！
